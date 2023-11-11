@@ -1,14 +1,13 @@
 import axios from 'axios';
 
+const BASE_URL = 'https://jsonplaceholder.typicode.com';
+
 const getUsers = () => {
-  return axios.get('https://jsonplaceholder.typicode.com/users/');
+  return axios.get(`${BASE_URL}/users`);
 };
 
-const getSingleUser = (paramId) => {
-  return axios.get(`https://jsonplaceholder.typicode.com/users/${paramId}`);
+const getSingleUser = (userId) => {
+  return axios.get(`${BASE_URL}/users/${userId}`);
 };
 
-export default {
-  getUsers,
-  getSingleUser,
-};
+export { getUsers, getSingleUser };
