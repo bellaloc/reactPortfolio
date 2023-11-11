@@ -5,7 +5,7 @@ const AnimatedExample = () => {
   const props = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    config: { duration: 1000 }, // Adjust animation duration as needed
+    config: { duration: 1000 }, 
   });
 
   return (
