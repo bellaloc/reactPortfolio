@@ -1,10 +1,11 @@
-// Footer.jsx
 import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>&copy; 2023 Your Name</p>
+    <footer className="bg-dark text-light py-3">
+      <div className="container">
+        <p className="m-0">&copy; {new Date().getFullYear()} Your Name</p>
+      </div>
     </footer>
   );
 };

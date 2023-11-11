@@ -1,6 +1,5 @@
-// Header.jsx
 import React from 'react';
-import Navigation from './navigation';
+import Navigation from './Navigation'; 
 
 const Header = () => {
   return (
@@ -20,6 +19,7 @@ const headerStyle = {
 
 const headingStyle = {
   margin: 0,
+  fontSize: '2rem', 
 };
 
 export default Header;
