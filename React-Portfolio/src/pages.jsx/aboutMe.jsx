@@ -1,18 +1,19 @@
-// AboutMe.jsx
 import React from 'react';
-import './styles.css'; // Import the styles
-import ExampleComponent from './ExampleComponent';
+import '../styles'; 
+import AnimatedExample from '../components/Animated/AnimatedExample';
 
 const AboutMe = () => {
   return (
     <section id="about-me">
-      <h2>About Me</h2>
-      <img src="path-to-your-image.jpg" alt="Your Avatar" />
-      <p>
-        Hi, I'm Christa Lococo, a passionate web developer with experience in creating
-        awesome web applications. I love turning ideas into reality using code.
-      </p>
-      <ExampleComponent /> {/* Include the animated component */}
+      <div className="about-me-content">
+        <h2>About Me</h2>
+        <img src="path-to-your-image.jpg" alt="Your Avatar" className="avatar" />
+        <p>
+          Hi, I'm Christa Lococo, a passionate web developer with experience in creating
+          awesome web applications. I love turning ideas into reality using code.
+        </p>
+        <AnimatedExample /> {/* Include the suggested animated component */}
+      </div>
     </section>
   );
 };
