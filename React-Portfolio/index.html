@@ -2,33 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      name="description"
-      content="Explore the portfolio of a skilled React developer."
-    />
-    <meta
-      name="keywords"
-      content="react, portfolio, web development, projects"
-    />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/path-to-your-favicon.svg"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA Extension Bootcamp." />
+    <meta name="keywords" content="full stack, web development, UCLA Extension Bootcamp, projects" />
+    <link rel="icon" type="image/svg+xml" href="/path-to-your-favicon.svg" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
     <style>
       body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f5f5f5;
+        background-color: #f7f7f7;
         color: #333;
         text-align: center;
       }
@@ -40,6 +24,9 @@
         justify-content: center;
         min-height: 100vh;
         padding: 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 8px;
       }
 
       h1 {
@@ -48,11 +35,29 @@
       }
 
       p {
-        color: #777;
+        color: #555;
         margin-bottom: 2rem;
       }
 
-      /* Customize additional styles based on your project's theme */
+      /* Additional styles based on project theme */
+      .project-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .project-list-item {
+        margin: 0 1rem;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .project-list-item:hover {
+        transform: scale(1.05);
+      }
 
       /* Animation for a more engaging experience */
       @keyframes fadeIn {
@@ -68,13 +73,18 @@
         animation: fadeIn 1s ease-in-out;
       }
     </style>
-    <title>React Portfolio - Your Name</title>
+    <title>Full Stack Developer Portfolio - Christa Lococo</title>
   </head>
   <body>
     <div id="root">
-      <h1>Welcome to My React Portfolio!</h1>
-      <p>Explore my projects and skills in web development.</p>
-      <!-- Your React content will be injected here -->
+      <h1>Welcome to the Full Stack Developer Portfolio of Christa Lococo!</h1>
+      <p>Explore my projects and skills in web development. As a graduate of the UCLA Extension Bootcamp, I bring a solid foundation and a passion for creating innovative solutions. Let's build something amazing together!</p>
+      <!-- React content will be injected here -->
+      <ul class="project-list">
+        <li class="project-list-item">Project 1</li>
+        <li class="project-list-item">Project 2</li>
+        <li class="project-list-item">Project 3</li>
+      </ul>
     </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
