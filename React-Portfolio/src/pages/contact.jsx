@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/styles.css';
-import AnimatedExample from '../components/Animated/AnimatedExample'; // Assuming you have AnimatedExample in the correct file
+import AnimatedExample from '../components/Animated/AnimatedExample'; 
 
 const Contact = () => {
   const [name, setName] = useState('');
