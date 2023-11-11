@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
+import Header from './components/header';
+import Footer from './components/footer';
+import Nav from './components/Nav'; 
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Contact from './pages/contact';
 import Resume from './pages/resume';
 import ErrorPage from './pages/ErrorPage';
 
@@ -14,6 +14,7 @@ const App = () => {
     <Router>
       <div style={appStyle}>
         <Header />
+        <Nav /> {/* Include Nav component here if you intended to use it */}
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/about" element={<AboutMe />} />
