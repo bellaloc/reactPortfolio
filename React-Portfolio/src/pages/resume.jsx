@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles.css';
-import ExampleComponent from './ExampleComponent';
+import '../styles/styles.css';
+import AnimatedComponent from '../components/Animated/AnimatedExample';
 
 const Resume = () => {
   const skills = [

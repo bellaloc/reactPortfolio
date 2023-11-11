@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles';
+import '../styles/styles.css';
 import AnimatedExample from '../components/Animated/AnimatedExample'; // Assuming you have AnimatedExample in the correct file
 
 const Contact = () => {

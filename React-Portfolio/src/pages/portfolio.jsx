@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import AnimatedExample from '../components/Animated/AnimatedExample';
-import '../styles';
+import '../styles/styles.css';
 
 const Portfolio = () => {
   const projects = [
