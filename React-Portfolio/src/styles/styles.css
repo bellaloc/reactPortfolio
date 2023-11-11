@@ -142,3 +142,64 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Styles for individual pages */
+
+/* AboutMe Page Styles */
+#aboutMe {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* AboutPage Page Styles */
+#aboutPage {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Contact Page Styles */
+#contact {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* ErrorPage Page Styles */
+#errorPage {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* HomePage Page Styles */
+#homePage {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Portfolio Page Styles */
+#portfolio {
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/* ProfilePage Page Styles */
+#profilePage {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Resume Page Styles */
+#resumePage {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
