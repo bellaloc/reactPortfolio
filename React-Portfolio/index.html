@@ -1,13 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your React Portfolio</title>
+  <link rel="stylesheet" href="%PUBLIC_URL%/styles/styles.css">
+  <style>
+  
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f5f5f5; 
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <!-- The "root" div is where your React app will be mounted -->
+
+  <!-- Include your React build output (e.g., main.js) -->
+  <script type="module" src="/dist/index.js"></script>
+  <!-- The path to your main JavaScript file may vary based on your project setup -->
+
+  <!-- Add any additional scripts or resources here -->
+</body>
 </html>

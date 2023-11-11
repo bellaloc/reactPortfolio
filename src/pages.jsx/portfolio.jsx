@@ -1,10 +1,12 @@
 // Portfolio.jsx
 import React from 'react';
+import './styles.css';
 import Project from '../components/Project';
+import ExampleComponent from './ExampleComponent';
 
 const Portfolio = () => {
   return (
-    <section style={sectionStyle}>
+    <section id="portfolio">
       <h2>Portfolio</h2>
       <div className="projects-container">
         <Project
@@ -21,12 +23,9 @@ const Portfolio = () => {
         />
         {/* Add more projects */}
       </div>
+      <ExampleComponent />
     </section>
   );
-};
-
-const sectionStyle = {
-  padding: '2rem',
 };
 
 export default Portfolio;

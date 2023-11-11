@@ -1,9 +1,11 @@
 // Resume.jsx
 import React from 'react';
+import './styles.css';
+import ExampleComponent from './ExampleComponent';
 
 const Resume = () => {
   return (
-    <section style={sectionStyle}>
+    <section id="resume">
       <h2>Resume</h2>
       <p>
         Download my resume:{' '}
@@ -12,23 +14,16 @@ const Resume = () => {
         </a>
       </p>
       <h3>Skills</h3>
-      <ul style={listStyle}>
+      <ul>
         <li>React</li>
         <li>JavaScript</li>
         <li>HTML5</li>
         <li>CSS3</li>
         {/* Add more skills */}
       </ul>
+      <ExampleComponent />
     </section>
   );
-};
-
-const sectionStyle = {
-  padding: '2rem',
-};
-
-const listStyle = {
-  listStyleType: 'circle',
 };
 
 export default Resume;
