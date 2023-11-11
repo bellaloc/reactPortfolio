@@ -7,7 +7,7 @@ const AboutMe = () => {
       <h2>About Me</h2>
       <img style={imageStyle} src="path-to-your-image.jpg" alt="Your Avatar" />
       <p>
-        Hi, I'm [Your Name], a passionate web developer with experience in creating
+        Hi, I'm Christa Lococo, a passionate web developer with experience in creating
         awesome web applications. I love turning ideas into reality using code.
       </p>
     </section>
