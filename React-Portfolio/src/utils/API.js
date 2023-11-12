@@ -10,4 +10,9 @@ const getSingleUser = (userId) => {
   return axios.get(`${BASE_URL}/users/${userId}`);
 };
 
-export { getUsers, getSingleUser };
+const API = {
+  getUsers,
+  getSingleUser,
+};
+
+export default API;
