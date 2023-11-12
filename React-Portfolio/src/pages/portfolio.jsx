@@ -6,18 +6,43 @@ import '../styles/styles.css';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Awesome Project',
+      title: 'Wine Wizard',
       imageSrc: 'path-to-image-1.jpg',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/yourusername/project1',
+      deployedLink: ' https://wine-wizard-a6de255e2c53.herokuapp.com/',
+      githubLink: 'https://github.com/ramitaarora/wine-wizard',
     },
     {
-      title: 'Amazing Project',
+      title: 'First Portfolio',
       imageSrc: 'path-to-image-2.jpg',
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/yourusername/project2',
+      deployedLink: 'https://bellaloc.github.io/Portfolio/',
+      githubLink: 'https://github.com/bellaloc/Portfolio',
     },
-    // Add more projects as needed
+    {
+      title: 'Password Generator',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://github.com/bellaloc/PasswordGenerator',
+      githubLink: 'https://bellaloc.github.io/PasswordGenerator',
+    }, 
+    {
+      title: 'Coding Quiz',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://bellaloc.github.io/JsCodingQuiz',
+      githubLink: 'https://github.com/bellaloc/JsCodingQuiz/tree/main',
+    }, 
+    {
+      title: 'Day Planner',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://github.com/bellaloc/dayPlannerHomework',
+      githubLink: ' https://bellaloc.github.io/dayPlannerHomework',
+    }, 
+    {
+      title: 'Weather App',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://github.com/bellaloc/Weather',
+      githubLink: 'https://bellaloc.github.io/Weather',
+    },
+    
+   
   ];
 
   return (
