@@ -38,10 +38,33 @@ const Portfolio = () => {
     {
       title: 'Weather App',
       imageSrc: 'path-to-image-2.jpg',
-      deployedLink: 'https://github.com/bellaloc/Weather',
-      githubLink: 'https://bellaloc.github.io/Weather',
+      deployedLink: 'https://bellaloc.github.io/Weather/',
+      githubLink: 'https://github.com/bellaloc/Weather',
     },
-    
+    {
+      title: 'Employee Management System',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://bellaloc.github.io/employeeMgmtSystem/',
+      githubLink: 'https://github.com/bellaloc/employeeMgmtSystem',
+    },
+    {
+      title: 'Regex Tutorial',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://github.com/bellaloc/RegexTutorial',
+      githubLink: 'https://gist.github.com/bellaloc/53dff2d3cec06a490432af65733532db',
+    },
+    {
+      title: 'Tech Blog',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'heroku: https://morning-temple-91811-57fafbc7cf6d.herokuapp.com/',
+      githubLink: 'https://github.com/bellaloc/TechBlogLinks',
+    },
+    {
+      title: 'Social Network',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: '',
+      githubLink: 'https://github.com/bellaloc/SocialNetwork',
+    },
    
   ];
 
