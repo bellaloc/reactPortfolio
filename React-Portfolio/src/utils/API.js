@@ -10,9 +10,9 @@ const getSingleUser = (userId) => {
   return axios.get(`${BASE_URL}/users/${userId}`);
 };
 
-const API = {
-  getUsers,
-  getSingleUser,
-};
+// const API = {
+//   getUsers,
+//   getSingleUser,
+// };
 
 export default API;
