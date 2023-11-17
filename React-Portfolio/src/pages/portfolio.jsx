@@ -1,7 +1,8 @@
 import React from 'react';
 import Project from '../components/Project';
-import AnimatedExample from '../components/Animated/AnimatedExample';
+//import AnimatedExample from '../components/Animated/AnimatedExample';
 import '../styles/styles.css';
+import { Link } from "react-router-dom"
 
 const Portfolio = () => {
   const projects = [
@@ -73,6 +74,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
+          <Link to = { project.deployedLink}>
           <Project
             key={index} // Make sure to use a unique key for each project
             title={project.title}
@@ -80,9 +82,10 @@ const Portfolio = () => {
             deployedLink={project.deployedLink}
             githubLink={project.githubLink}
           />
+          </Link>
         ))}
       </div>
-      <AnimatedExample /> {/* Include the suggested animated component */}
+      <AnimatedExample /> {}
     </section>
   );
 };
