@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/styles.css';
-import ExampleComponent from '../components/Animated/AnimatedExample';
+
 
 const skills = [
   { name: 'React', level: 'Advanced' },
