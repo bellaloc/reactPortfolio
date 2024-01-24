@@ -35,7 +35,7 @@ npm run dev
 
 This portfolio is designed to kickstart React development in Vite, incorporating HMR and ESLint rules for an enhanced coding experience.
 
-Deployed link: spontaneous-tanuki-8bbad6.netlify.app/
+Deployed link: https://spontaneous-tanuki-8bbad6.netlify.app/
 
 Two official plugins are currently available:
 
