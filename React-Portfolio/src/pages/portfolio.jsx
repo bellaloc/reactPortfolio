@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
-//import AnimatedExample from '../components/Animated/AnimatedExample';
+import AnimatedExample from '../components/Animated/AnimatedExample';
 import '../styles/styles.css';
 import { Link } from "react-router-dom"
 
@@ -16,14 +16,13 @@ const Portfolio = () => {
       title: 'Book Search Engine',
       imageSrc: 'path-to-image-1.jpg',
       deployedLink: ' https://murmuring-retreat-88718-1ebbef69cc1f.herokuapp.com/',
-      githubLink: 'https://github.com/booksearchengine',
+      githubLink: 'https://github.com/BookSearchEngine',
     },
-
     {
-      title: 'First Portfolio',
-      imageSrc: 'path-to-image-2.jpg',
-      deployedLink: 'https://bellaloc.github.io/Portfolio/',
-      githubLink: 'https://github.com/bellaloc/Portfolio',
+      title: 'Tiny Wear Online Shop',
+      imageSrc: 'path-to-image-1.jpg',
+      deployedLink: ' https://github.com/bellaloc/TinyWear',
+      githubLink: 'https://github.com/TinyWear',
     },
     {
       title: 'Password Generator',
@@ -73,25 +72,42 @@ const Portfolio = () => {
       deployedLink: '',
       githubLink: 'https://github.com/bellaloc/SocialNetwork',
     },
-   
+    {
+      title: 'First Portfolio',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://bellaloc.github.io/Portfolio/',
+      githubLink: 'https://github.com/bellaloc/Portfolio',
+    },
+    {
+      title: 'Sing Along',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://adamywfong.github.io/singalong/',
+      githubLink: 'https://github.com/adamywfong/singalong',
+    },
+    {
+      title: 'More projects',
+      imageSrc: 'path-to-image-2.jpg',
+      deployedLink: 'https://bellaloc.github.io/Portfolio/',
+      githubLink: 'https://bellaloc.github.io/Portfolio/',
+    },
   ];
 
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div className="projects-container">
+      <h2 style={{ textAlign: 'center' }}>Portfolio</h2>
+      <div className="projects-container" style={{ textAlign: 'center' }}>
         {projects.map((project, index) => (
-          <Link to = { project.deployedLink}>
-          <Project
-            key={index} // Make sure to use a unique key for each project
-            title={project.title}
-            imageSrc={project.imageSrc}
-            deployedLink={project.deployedLink}
-            githubLink={project.githubLink}
-          />
+          <Link to={project.deployedLink} key={index}>
+            <Project
+              title={project.title}
+              imageSrc={project.imageSrc}
+              deployedLink={project.deployedLink}
+              githubLink={project.githubLink}
+            />
           </Link>
         ))}
       </div>
+      <h1 style={{ textAlign: 'center' }}>Your Second H1</h1>
       <AnimatedExample /> {}
     </section>
   );
