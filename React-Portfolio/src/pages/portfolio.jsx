@@ -13,6 +13,13 @@ const Portfolio = () => {
       githubLink: 'https://github.com/ramitaarora/wine-wizard',
     },
     {
+      title: 'Book Search Engine',
+      imageSrc: 'path-to-image-1.jpg',
+      deployedLink: ' https://murmuring-retreat-88718-1ebbef69cc1f.herokuapp.com/',
+      githubLink: 'https://github.com/booksearchengine',
+    },
+
+    {
       title: 'First Portfolio',
       imageSrc: 'path-to-image-2.jpg',
       deployedLink: 'https://bellaloc.github.io/Portfolio/',
